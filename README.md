@@ -1,4 +1,4 @@
-# Relative Frontend Assignment🚀
+# Rltv Frontend Assignment🚀
 ### Assignment Link🔗:https://bit.ly/3J16pGB
 
 ### About💭:
