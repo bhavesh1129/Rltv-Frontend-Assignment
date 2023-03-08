@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# Relative Frontend Assignment🚀
+### Assignment Link🔗:https://bit.ly/3J16pGB
 
-doc:https://rltv.notion.site/Frontend-Assignment-4d6d5e63be874aa386a1c1e79a266016
+### About💭:
+
+Welcome to the React project, where a react component renders a list of cryptocurrencies with their ```prices, TVL, and logos using the CoinGecko API ```. This code provides an excellent example of how to fetch data from an API and display it in a React component, along with some styling using the ```Tailwind CSS framework```.
+
+The App component creates an array of cryptocurrencies and renders a CryptoCard component for each of them using the map method. The CryptoCard component fetches data for the given cryptocurrency using the <a href="https://www.coingecko.com/en/api" >**CoinGecko API**</a> and displays the required information for the cryptocurrency.
+
+The CryptoCard component fetches data using the ```useEffect hook with the cryptoId prop``` as a dependency. When the cryptoId prop changes, the fetchData function is called to fetch data from the API. If data is not yet fetched, a **Loading...** message is displayed.
+
+Once the data is fetched, it is extracted using destructuring and the required information such as ```image, name, symbol, price, priceChange, and tvl``` are displayed on the cryptocurrency card. The price and tvl values are formatted as ```US dollars using the toLocaleString method```.
+
+The component uses the Tailwind CSS framework for styling, with classes like ```flex, flex-wrap, text-center, text-base, font-semibold, bg-gray, rounded-full, and object-cover```. The card layout is created using ```absolute positioning and CSS transforms```.
+
+### Preview🖼️:
+
+<img src="https://github.com/bhavesh1129/Rltv-Frontend-Assignment/blob/master/Preview-old.png" />
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
